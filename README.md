@@ -33,8 +33,7 @@ php bin/console lleego:avail MAD BIO 2023-06-01
  ./vendor/bin/phpunit    
 ```
 
+## Some considerations
 
-
-
-
-
+- I took the decision to create an application service called SegmentDataMapper that processes the necessary fields of the XML segments and create the Segment objects, but we could also consider creating a Factory (in Domain layer) design pattern to create the Segment instances.
+- Before I started, I did not know the way to process XML in SOAP format so I had to spend time researching for the best way to process it. 
