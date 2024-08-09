@@ -21,7 +21,7 @@ composer install
 
 Endpoint GET: http://localhost:port/api/avail?origin=MAD&destination=BIO&date=2022-06-10
 
-2. Return flights information in console command: 
+2. Return flights information through console: 
 
 ```bash
 php bin/console lleego:avail MAD BIO 2023-06-01
