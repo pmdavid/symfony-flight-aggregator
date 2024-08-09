@@ -64,7 +64,6 @@ vendor
 /node_modules/
 /public/bundles/
 /public/assets/
-/.env
 .idea
 /.idea
 
